@@ -4,6 +4,8 @@ import './OrderList.css'
 
 const OrderList = () => {
   return (
+    <>
+    <div class="section_gaps"></div>
     <section id="ClientList" className="Admin openTicket">
       <div className="container custom_width">
         {/* Header */}
@@ -1069,6 +1071,7 @@ const OrderList = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 
